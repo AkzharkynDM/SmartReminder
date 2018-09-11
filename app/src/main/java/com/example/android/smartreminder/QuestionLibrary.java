@@ -6,19 +6,6 @@ package com.example.android.smartreminder;
 
 public class QuestionLibrary {
 
-//    private String mQuestions [] = {
-//            "Whats up baby?",
-//            "When you guys will finish this project?",
-//            "DO you know how much time is left?",
-//            "Should I come there and force you to begin??  BEGIN TO CODEEEEEEEEE OR DIEEEE"
-//    };
-//    private String mChoices[][] = {
-//            {"Cool", "NOt bad", "FIne", "Perfect"},
-//            {"Today", "In a minute", "IN a second", "IN a millisecond"},
-//            {"No", "Yes", "Maybe", "Not sure"},
-//            {"Yes please", "No I will finish", "Never", "I have already finished"}
-//    };
-
 //    upholder : respond readily to outer and inner expectations
 //    Questioners: question all expectations; they’ll meet an expectation if they think it makes sense (my husband is a Questioner); essentially, they make all expectations into inner expectations
 //    Rebels :resist all expectations, outer and inner alike

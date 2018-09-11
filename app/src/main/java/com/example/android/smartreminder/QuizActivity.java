@@ -285,7 +285,12 @@ public class QuizActivity extends AppCompatActivity {
     private void recordAnswers(String an){
         answers.add(an);
     }
+
     private String getPersonalityByQuiz(){
+        //Here we will implement QuestionsAnswersAnalyzer
+        //loading the training set for our J48 decision tree
+        String pathToFile="/Users/akzharkynduisembiyeva/StudioProjects/SmartReminder/training_set/training_set.csv";
+        QuestionAnswerAnalyzer analyzer=new QuestionAnswerAnalyzer(pathToFile);
         String rel = "UPHOLDER";
 
         int countOutterYes=0;

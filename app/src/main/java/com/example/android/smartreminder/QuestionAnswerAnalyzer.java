@@ -23,7 +23,10 @@ public class QuestionAnswerAnalyzer {
     private Instances ins;
     private String pathToFile;
 
-    trainModel(c, "J48");
+    public QuestionAnswerAnalyzer(String pathToFile) {
+        this.pathToFile=pathToFile;
+        trainModel(c, "J48");
+    }
 
     private void trainModel(Classifier c, String name){
         Evaluation e;
